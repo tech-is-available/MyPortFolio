@@ -143,7 +143,7 @@ const PROJECTS = [
     title: "Smart Cloud Storage & File Sharing System",
     desc: "Developed a secure cloud-based file storage and sharing application with user authentication, file upload/download, folder management, and search functionality.",
     tags: ["Next.js", "React", "TypeScript", "Appwrite", "Tailwind CSS"],
-    link: "https://github.com/tech-is-available/storage-management",
+    link: "https://github.com/tech-is-available/CloudShare.git",
   },
 ];
 
