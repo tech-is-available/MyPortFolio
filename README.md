@@ -112,11 +112,11 @@ https://github.com/tech-is-available/CloudShare
 S.I.C.E.S. College, University of Mumbai, Ambernath
 2023 - 2026
 
-**HSC — Science**
+**HSC - Science**
 S.I.C.E.S. College, Ambernath
 2023
 
-**SSC**
+**SSC -**
 New English High School, Badlapur
 2021
 
