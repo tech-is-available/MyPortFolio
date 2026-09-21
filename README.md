@@ -1,4 +1,4 @@
-# Geeta Vajaram Chaudhari — Personal Portfolio
+# Geeta Vajaram Chaudhari - Personal Portfolio
 
 A modern, responsive personal portfolio website showcasing my skills, projects, certifications, education, and career goals in **Networking, Linux/RHEL, AWS Cloud, and future DevOps**.
 
@@ -68,14 +68,14 @@ I am looking for **entry-level opportunities** where I can learn, contribute, an
 
 ## 🚀 Projects
 
-### 1. Networking Lab Setup — CCNA
+### 1. Networking Lab Setup - CCNA
 
 Practiced network design and configuration in a lab environment, including VLANs, routing and switching, NAT, basic ACLs, and connectivity troubleshooting.
 
 **Technologies:**
 CCNA • Networking • VLAN • Routing • Switching • NAT • ACL
 
-### 2. Linux Server Configuration — Red Hat Linux
+### 2. Linux Server Configuration - Red Hat Linux
 
 Configured and administered a Red Hat Linux server, including user accounts, permissions, services using systemctl, SSH access, Firewalld rules, and automated tasks using cron jobs.
 
@@ -101,16 +101,16 @@ https://github.com/tech-is-available/storage-management
 
 ## 📜 Certifications & Training
 
-* **Cisco Certified Network Associate (CCNA)** — NetTech India, Thane
-* **Red Hat Enterprise Linux (RHEL)** — NetTech India, Thane
-* **AWS** — NetTech India, Thane
-* **Python Programming** — S.I.C.E.S. College, Ambernath
+* **Cisco Certified Network Associate (CCNA)** - NetTech India, Thane
+* **Red Hat Enterprise Linux (RHEL)** - NetTech India, Thane
+* **AWS** - NetTech India, Thane
+* **Python Programming** - S.I.C.E.S. College, Ambernath
 
 ## 🎓 Education
 
 **Bachelor of Science in Computer Science**
 S.I.C.E.S. College, University of Mumbai, Ambernath
-2023 – 2026
+2023 - 2026
 
 **HSC — Science**
 S.I.C.E.S. College, Ambernath
