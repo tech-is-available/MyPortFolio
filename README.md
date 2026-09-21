@@ -97,7 +97,7 @@ Developed a cloud-based file storage and sharing application with authentication
 Next.js • React • TypeScript • Appwrite • Tailwind CSS
 
 **GitHub:**
-https://github.com/tech-is-available/storage-management
+https://github.com/tech-is-available/CloudShare
 
 ## 📜 Certifications & Training
 
