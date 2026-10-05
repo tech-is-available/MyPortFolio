@@ -120,21 +120,25 @@ const CERTS = [
     name: "Cisco Certified Network Associate (CCNA)",
     org: "NetTech India, Thane",
     icon: Network,
+    certificate: "/certificates/ccna.pdf",
   },
   {
     name: "Red Hat Enterprise Linux (RHEL)",
     org: "NetTech India, Thane",
     icon: Terminal,
+    certificate: "/certificates/rhel.pdf",
   },
   {
     name: "AWS Cloud",
     org: "NetTech India, Thane",
     icon: Cloud,
+    certificate: "/certificates/aws.pdf",
   },
   {
     name: "Python Programming",
     org: "S.I.C.E.S. College, Ambernath",
     icon: Code2,
+    certificate: "/certificates/python.pdf",
   },
 ];
 
@@ -657,41 +661,52 @@ function Portfolio() {
         </section>
 
         {/* CERTIFICATIONS */}
-        <section className="relative px-5 py-20">
-          <div className="mx-auto max-w-6xl">
-            <SectionHeading
-              eyebrow="Certifications"
-              title="Trained and certified"
-            />
+<section className="relative px-5 py-20">
+  <div className="mx-auto max-w-6xl">
+    <SectionHeading
+      eyebrow="Certifications"
+      title="Trained and certified"
+    />
 
-            <div className="grid gap-6 sm:grid-cols-2">
-              {CERTS.map((c, i) => (
-                <Reveal
-                  key={c.name}
-                  delay={i * 80}
-                  className="glass glass-hover rounded-3xl p-6"
-                >
-                  <div className="flex items-start gap-4">
-                    <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-accent/40 bg-surface-2/70 text-accent">
-                      <c.icon className="h-5 w-5" />
-                    </span>
+    <div className="grid gap-6 sm:grid-cols-2">
+      {CERTS.map((c, i) => (
+        <Reveal
+          key={c.name}
+          delay={i * 80}
+          className="glass glass-hover rounded-3xl p-6"
+        >
+          <div className="flex items-start gap-4">
+            <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-accent/40 bg-surface-2/70 text-accent">
+              <c.icon className="h-5 w-5" />
+            </span>
 
-                    <div>
-                      <h3 className="font-display text-base font-semibold">
-                        {c.name}
-                      </h3>
+            <div className="flex-1">
+              <h3 className="font-display text-base font-semibold">
+                {c.name}
+              </h3>
 
-                      <p className="mt-1 flex items-center gap-1.5 text-sm text-muted-foreground">
-                        <Award className="h-4 w-4" />
-                        {c.org}
-                      </p>
-                    </div>
-                  </div>
-                </Reveal>
-              ))}
+              <p className="mt-1 flex items-center gap-1.5 text-sm text-muted-foreground">
+                <Award className="h-4 w-4" />
+                {c.org}
+              </p>
+
+              <a
+                href={c.certificate}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex w-fit items-center gap-2 rounded-full border border-accent/40 bg-surface-2/60 px-4 py-2 text-xs font-semibold text-lavender transition-all hover:border-accent hover:bg-accent/10 hover:text-accent"
+              >
+                <Award className="h-4 w-4" />
+                View Certificate
+                <ArrowRight className="h-3.5 w-3.5" />
+              </a>
             </div>
           </div>
-        </section>
+        </Reveal>
+      ))}
+    </div>
+  </div>
+</section>
 
         {/* PROJECTS */}
         <section id="projects" className="relative px-5 py-20">
